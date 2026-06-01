@@ -1,7 +1,7 @@
 var siteData = {
   promoDay: {
     domingo: [{ text: "Rodízio de Pizza — R$ 60 por pessoa, Coca 1L à vontade", highlight: true }],
-    segunda: [{ text: "Rodízio de Pizza — R$ 60 por pessoa, Coca 1L à vontade", highlight: true }],
+    segunda: [{ text: "Segunda Maluca — Rodízio por R$ 49,90 com Coca 1L à vontade", highlight: true }],
     terca: [{ text: "Terça Maluca — Pizza G por R$ 39,90 (só delivery)" }],
     quarta: [{ text: "Quarta Maluca — Rodízio por R$ 49,90 com Coca 1L à vontade", highlight: true }],
     quinta: [{ text: "Rodízio de Pizza — R$ 60 por pessoa, Coca 1L à vontade", highlight: true }],
@@ -159,7 +159,7 @@ var businessInfoData = {
 // Fallback para promocoes (formato cardapio-admin)
 var promocoesData = {
   domingo: [{ texto: "RODÍZIO DE PIZZA — R$ 60 por pessoa com Coca 1L à vontade", destaque: true }],
-  segunda: [{ texto: "RODÍZIO DE PIZZA — R$ 60 por pessoa com Coca 1L à vontade", destaque: true }],
+  segunda: [{ texto: "SEGUNDA MALUCA — Rodízio por R$ 49,90 com Coca 1L à vontade", destaque: true }],
   terca:   [{ texto: "TERÇA MALUCA — Pizza G por R$ 39,90 (só delivery, salão fechado)", destaque: true }],
   quarta:  [{ texto: "QUARTA MALUCA — Rodízio por R$ 49,90 com Coca 1L à vontade", destaque: true }],
   quinta:  [{ texto: "RODÍZIO DE PIZZA — R$ 60 por pessoa com Coca 1L à vontade", destaque: true }],
