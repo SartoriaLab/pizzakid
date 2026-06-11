@@ -1359,4 +1359,17 @@
 
   // Renderizar features da pizzaria
   renderFeatures();
+
+  // Expirar elementos com data-expires
+  function initExpiration() {
+    var elements = document.querySelectorAll('[data-expires]');
+    var now = new Date();
+    elements.forEach(function(el) {
+      var expires = new Date(el.getAttribute('data-expires'));
+      if (now > expires) {
+        el.style.display = 'none';
+      }
+    });
+  }
+  initExpiration();
 })();
